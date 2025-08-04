@@ -1,3 +1,5 @@
+"use client";
+
 import './Footer.scss';
 
 export default function Footer() {
