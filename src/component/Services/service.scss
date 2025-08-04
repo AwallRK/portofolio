@@ -1,0 +1,135 @@
+.service {
+    background: linear-gradient(180deg, #0c0c1d, #111132);
+    height: 100vh;
+    overflow-y: auto;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.textContainer {
+    flex: 1;
+    align-self: flex-end;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    p {
+        font-weight: 200;
+        font-style: 15px;
+        color: gray;
+        text-align: right;
+    }
+
+    hr {
+        width: 300px;
+        border: none;
+        border-top: 0.5px solid gray;
+    }
+}
+
+.titleContainer {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+
+    .title {
+        display: flex;
+        gap: 50px;
+        align-items: center;
+
+        img {
+            width: 400px;
+            height: 200px;
+            border-radius: 90px;
+            object-fit: fill;
+            margin-top: 50px;
+        }
+
+        h1 {
+            font-size: 48px;
+            font-weight: 300;
+            margin-bottom: 10px;
+        }
+
+        &.text {
+            flex-direction: column;
+            gap: 10px;
+
+            p {
+                font-size: 18px;
+                font-weight: 200;
+                color: #ccc;
+                text-align: center;
+                max-width: 800px;
+                line-height: 2;
+                padding-top: 20px;
+                padding-bottom: 20px;
+                margin-bottom: 50px;
+            }
+        }
+    }
+}
+
+.listContainer {
+    flex: 2;
+    display: flex;
+    max-width: 1366px;
+    margin: auto;
+    gap: 20px;
+    height: fit-content;
+
+    .box {
+        padding: 40px;
+        border: 1px solid #444;
+        border-radius: 16px;
+        background: rgba(255, 255, 255, 0.03);
+        transition: all 0.3s ease;
+        text-align: center;
+
+        .icon {
+            width: 60px;
+            height: 60px;
+            margin: 0 auto 20px auto;
+        }
+
+        h2 {
+            font-size: 22px;
+            color: white;
+            margin-bottom: 12px;
+        }
+
+        p {
+            font-size: 15px;
+            color: #ccc;
+            margin-bottom: 10px;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+
+            li {
+                font-size: 14px;
+                color: #aaa;
+                margin-bottom: 6px;
+            }
+        }
+
+        &:hover {
+            background-color: white;
+            color: black;
+
+            h2,
+            p,
+            li {
+                color: black;
+            }
+        }
+    }
+
+}
