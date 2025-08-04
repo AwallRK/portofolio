@@ -47,7 +47,7 @@ const Profile = () => {
         <div className="wrapper">
             <motion.div variants={textVariants} className='textContainerProfile' initial='initial' animate='animate'>
                 <motion.h2 variants={textVariants}>AWALLUDIN SAIRAN</motion.h2>
-                <motion.h1 variants={textVariants}>Web Developer and Instructor FSJS</motion.h1>
+                <motion.h1 variants={textVariants}>Data Analyst, Fullstack Developer & Mentor</motion.h1>
                 <motion.div variants={textVariants} className='buttons'>
                     <motion.button variants={textVariants}>See The Latest Works</motion.button>
                     <motion.button variants={textVariants}>Contact Me</motion.button>

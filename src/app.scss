@@ -23,13 +23,10 @@ a {
 }
 
 section {
-    height: 100vh;
     scroll-snap-align: center;
 }
 
-#Homepage,
 #Services,
-#Portofolio,
-#Contact {
+#Portofolio {
     height: 100vh;
 }
