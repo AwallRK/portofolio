@@ -200,7 +200,7 @@ export default function Contact() {
                                     <InstagramIcon />
                                 </motion.a>
                                 <motion.a
-                                    href="/Awalludin-Sairan-Resume.pdf"
+                                    href="https://drive.google.com/file/d/1cHUVa85vr1M5Wckw7Q8nVw_ax1PYI2zP/view?usp=drive_link"
                                     download
                                     title="Download Resume"
                                     whileHover={{ scale: 1.1, rotate: 5 }}

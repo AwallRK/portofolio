@@ -49,8 +49,8 @@ const Profile = () => {
                 <motion.h2 variants={textVariants}>AWALLUDIN SAIRAN</motion.h2>
                 <motion.h1 variants={textVariants}>Data Analyst, Fullstack Developer & Mentor</motion.h1>
                 <motion.div variants={textVariants} className='buttons'>
-                    <motion.button variants={textVariants}>See The Latest Works</motion.button>
-                    <motion.button variants={textVariants}>Contact Me</motion.button>
+                    <motion.button variants={textVariants}><motion.a href='#Portofolio'>See The Latest Works</motion.a></motion.button>
+                    <motion.button variants={textVariants}><motion.a href='#Contact'>Contact Me</motion.a></motion.button>
                 </motion.div>
                 <motion.img variants={textVariants} src="/scroll.png" alt="" animate='scrollButton' />
             </motion.div>
